@@ -2,6 +2,8 @@
 
 Made by **Dinesh Prasad** for the Web Development Internship.
 
+Live website: https://dineshprasad7564.github.io/dinesh-prasad-gallery/
+
 ## What is this?
 
 A simple image gallery with 6 items. Each item has a picture and a caption.
