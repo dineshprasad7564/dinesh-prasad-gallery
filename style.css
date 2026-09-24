@@ -47,22 +47,19 @@ header p {
   transform: translateY(-8px);
 }
 
-/* The picture area (colored box with an emoji) */
-.pic {
+/* The photo fills the top of the card.
+   object-fit: cover keeps the photo filling the box without stretching. */
+.item img {
+  width: 100%;
   height: 180px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 70px;
+  object-fit: cover;
+  display: block;
 }
 
-/* A different background color for each picture */
-.pic1 { background-color: #a8d5e5; }
-.pic2 { background-color: #a3e4d7; }
-.pic3 { background-color: #c8e6a0; }
-.pic4 { background-color: #ffd3b6; }
-.pic5 { background-color: #d5c8e6; }
-.pic6 { background-color: #f6e0a8; }
+/* Hover effect on the photo too */
+.item:hover img {
+  opacity: 0.9;
+}
 
 /* Caption under each picture */
 .caption {

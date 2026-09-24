@@ -6,10 +6,10 @@ Live website: https://dineshprasad7564.github.io/dinesh-prasad-gallery/
 
 ## What is this?
 
-A simple image gallery with 6 items. Each item has a picture and a caption.
+A simple nature image gallery with 6 photos. Each photo has a caption.
 The layout is made with CSS Grid: 3 columns on desktop, 1 column on mobile.
 
-The picture is a colored box with an emoji, so no image files are needed.
+The photos come from Unsplash (free to use).
 
 ## Files
 
