@@ -13,6 +13,8 @@ The picture is a colored box with an emoji, so no image files are needed.
 
 - index.html - the gallery items
 - style.css - the design and the grid
+- script.js - counts the items and shows the number in the header
+- profile.jpg - my photo
 
 ## How to run
 
@@ -20,4 +22,4 @@ Open the index.html file in a browser. Nothing else is needed.
 
 ## Made with
 
-Simple HTML and CSS. No frameworks used.
+Simple HTML, CSS and JavaScript. No frameworks used.
