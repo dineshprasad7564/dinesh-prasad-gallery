@@ -1,0 +1,88 @@
+/* CSS for Dinesh Gallery - Task 6 */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f7f7f7;
+  color: #333333;
+}
+
+/* Header */
+header {
+  background-color: #2980b9;
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header p {
+  margin: 5px 0 0 0;
+}
+
+/* The gallery uses CSS Grid: 3 columns on desktop */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 0 15px;
+}
+
+/* Each gallery item is a white card */
+.item {
+  background-color: white;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  overflow: hidden;
+  transition: transform 0.3s;
+}
+
+/* When the mouse goes over the item, it lifts up a little */
+.item:hover {
+  transform: translateY(-8px);
+}
+
+/* The picture area (colored box with an emoji) */
+.pic {
+  height: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 70px;
+}
+
+/* A different background color for each picture */
+.pic1 { background-color: #a8d5e5; }
+.pic2 { background-color: #a3e4d7; }
+.pic3 { background-color: #c8e6a0; }
+.pic4 { background-color: #ffd3b6; }
+.pic5 { background-color: #d5c8e6; }
+.pic6 { background-color: #f6e0a8; }
+
+/* Caption under each picture */
+.caption {
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+  font-weight: bold;
+}
+
+/* Footer */
+footer {
+  background-color: #2980b9;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+/* Simple mobile view: grid becomes 1 column */
+@media (max-width: 600px) {
+  .gallery {
+    grid-template-columns: 1fr;
+  }
+}
